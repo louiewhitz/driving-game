@@ -4,23 +4,28 @@
 }
 
 .container {
-  position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
+  position: relative;
   background-color: green;
 }
 
 .car {
-  width: 10%;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
   height: auto;
-  top: 0;
-  left: 0;
+}
+
+.sports-car {
+  width: 100px;
 }
 
 .north {
-  transform: rotate(0deg);
+  transform: rotate(270deg);
   animation-duration: 3s;
   width: 10%;
 }
@@ -32,13 +37,37 @@
 }
 
 .east {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
   animation-duration: 3s;
   width: 10%;
 }
 
 .west {
-  transform: rotate(270deg);
+  transform: rotate(180deg);
   animation-duration: 3s;
   width: 10%;
 }
+
+/* .north {
+  transform: rotate(0deg);
+  animation-duration: 3s;
+    width: 10%;
+}
+
+.south {
+  transform: rotate(180deg);
+  animation-duration: 3s;
+    width: 10%;
+}
+
+.east {
+  transform: rotate(90deg);
+  animation-duration: 3s;
+    width: 10%;
+}
+
+.west {
+  transform: rotate(-90deg);
+  animation-duration: 3s;
+    width: 10%;
+} */
