@@ -101,3 +101,92 @@ setInterval(() => {
     }
   }
 });
+
+// const car = document.querySelector('.car');
+// document.addEventListener('keydown', turnCar);
+// const container = document.querySelector('.container');
+
+// const data = {
+//   direction: null,
+//   location: [0, 0],
+
+//   on: false
+// };
+// const pageHeight = container.offsetHeight;
+// const pageWidth = container.offsetWidth;
+// const carWidth = car.offsetWidth;
+// const carHeight = car.offsetHeight;
+
+// let carX = pageWidth / 2;
+// let carY = pageHeight / 2;
+
+// const turnDuration = {
+//   duration: 150,
+//   animate: 1,
+//   fill: 'forwards'
+
+// };
+// const direction = car.className;
+
+// document.addEventListener('keydown', startCar);
+// function startCar(event) {
+//   if (event.code === 'Space' && data.on === false) {
+//     data.on = true;
+//     if (carX + carWidth >= pageWidth && direction === 'west') {
+//       data.on = false;
+//     } else {
+//       carX += 5;
+//     }
+
+//   } else if ()
+// }
+
+//     // get the current direction of the car
+
+//     // update the car's position based on its direction
+//     switch (direction) {
+//       case 'north':
+//         car.animate(turnDuration);
+//         data.direction = 'north';
+//         break;
+//       case 'south':
+//         car.animate(turnDuration);
+//         data.direction = 'south';
+//         break;
+//       case 'west':
+//         car.animate(turnDuration);
+//         data.direction = 'west';
+//         break;
+//       case 'east':
+//         car.animate(turnDuration);
+//         data.direction = 'east';
+//         break;
+//       default:
+//         break;
+//     }
+
+//     // update the car's position on the page
+//     car.style.top = data.y + 'px';
+//     car.style.left = data.x + 'px';
+//   }
+// }
+
+// function turnCar(event) {
+
+//   switch (event.key) {
+//     case 'ArrowUp':
+//       car.className = 'north';
+//       break;
+//     case 'ArrowDown':
+//       car.className = 'south';
+//       break;
+//     case 'ArrowLeft':
+//       car.className = 'west';
+//       break;
+//     case 'ArrowRight':
+//       car.className = 'east';
+//       break;
+//     default:
+//       break;
+//   }
+// }
