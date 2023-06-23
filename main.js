@@ -3,10 +3,13 @@ const container = document.querySelector('.container');
 
 // initialize the car's data
 const data = {
-  direction: null,
-  x: 0,
-  y: 0,
-  on: false
+  car: [
+    { x: 0, y: 0 },
+    { x: 4, y: 0 },
+    { x: 8, y: 0 }
+  ],
+  direction: 'ArrowRight',
+  speed: 100
 };
 
 // get the dimensions of the container and the car
